@@ -15,6 +15,9 @@
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
 			
 			<a-asset-item id="animated-asset-1" src="model.gltf"></a-asset-item>
+			<a-asset-item id="animated-asset-3" src="other/model.gltf"></a-asset-item>
+			<a-asset-item id="animated-asset-2" src="scene.gltf"></a-asset-item>
+			
         </a-assets>
 
         <a-marker type='barcode' value='7'>
@@ -24,6 +27,13 @@
         <a-marker id="animated-marker" type='barcode' value='6'>
             <a-entity
                 gltf-model="#animated-asset-1"
+                scale="1">
+            </a-entity>
+        </a-marker>
+		
+		<a-marker id="animated-marker" type='barcode' value='44'>
+            <a-entity
+                gltf-model="#animated-asset-3"
                 scale="1">
             </a-entity>
         </a-marker>
